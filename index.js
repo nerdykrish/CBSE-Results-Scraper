@@ -176,7 +176,7 @@ function formatDate(date) {
 let name = Math.floor(new Date() / 1000);
 
 //Change School Code And Change Roll Number Start Range And End Range
-//save12thResult(14000000, 14000000, 20000, name + ".xml");
+//save12thResult(14000000, 14000000, 20000, name + ".csv");
 
 //Change Change Roll Number Start Range And End Range And Change Dob Start Range And End Range
-//save10thResult(22185887, 22185950, '4/1/2005', '4/1/2006', name + ".xml");
+//save10thResult(22185887, 22185950, '4/1/2005', '4/1/2006', name + ".csv");
