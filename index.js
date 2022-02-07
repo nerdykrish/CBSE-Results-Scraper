@@ -1,5 +1,5 @@
-// Script To Fetch All Results in A Roll Number Range
-// Made By Krish Jha
+//Script To Fetch All Results in A Roll Number Range
+//Made By Krish Jha
 // This script is just for educational purposes, the author is not responsible for any harm caused by this script.
 
 let fetch = require("node-fetch");
@@ -98,6 +98,8 @@ async function save10thResult(rollStartRange, rollEndRange, dobStartRange, dobEn
 
 let count = 0;
 
+let successCount = 0;
+
 async function fetch10th(rollNo, dateArray, headers, fileName){
     for(let i = 0; i < dateArray.length; i++) {
         await sleep(300);
@@ -135,10 +137,12 @@ async function fetch10th(rollNo, dateArray, headers, fileName){
                 subjectName3, marks31, marks32,
                 subjectName4, marks41, marks42,
                 subjectName5, marks51, marks52].join(","));
+            successCount++;
+            console.log("Success Fetched Results Of  : " + successCount + " Students");
         } catch (e) {
             //console.log(rollNo);
         }
-        console.log(count);
+        //console.log(count);
     }
 }
 
