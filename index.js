@@ -1,5 +1,5 @@
-//Script To Fetch All Results in A Roll Number Range
-//Made By Krish Jha
+// Script To Fetch All Results in A Roll Number Range
+// Made By Krish Jha
 // This script is just for educational purposes, the author is not responsible for any harm caused by this script.
 
 let fetch = require("node-fetch");
