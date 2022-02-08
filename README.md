@@ -1,4 +1,4 @@
-# CBSE Results Scrapper
+# CBSE Results Scraper
 It is a NodeJS Script Which Let You Scrap Your Classmates Cbse 10th or 12th Results without any extra information.
 
 # Disclaimer
